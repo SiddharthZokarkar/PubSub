@@ -3,6 +3,6 @@ This is a Publisher Subscriber repository which could be used effectively for th
 <br>
 Just include the library import PubSub into your python code.
 <br>
-<b> Need to install pip install keyboard<\b>
+<b> Dependency: pip install keyboard
 
 
