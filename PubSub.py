@@ -33,7 +33,6 @@ def publish_topic(Topics_number, Topics_data):
 		
 			cursor.execute("UPDATE Topics SET Topics_data = ? WHERE Topics_number = ?",(Topics_data, Topics_number))	
 			connection.commit()
-			SubRemember_lists[Topics_number].clear()
 			return Topics_data
 
 	except:
